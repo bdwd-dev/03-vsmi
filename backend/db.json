@@ -1,0 +1,92 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Jean M.",
+      "email": "jean@vsmi.cg",
+      "role": "admin",
+      "created_at": "2026-09-01"
+    },
+    {
+      "id": 2,
+      "name": "Marie L.",
+      "email": "marie@vsmi.cg",
+      "role": "member",
+      "created_at": "2026-09-02"
+    }
+  ],
+  "memberships": [
+    {
+      "id": 1,
+      "user_id": 1,
+      "type": "mensuel",
+      "start_date": "2026-09-01",
+      "end_date": "2026-10-01",
+      "status": "active",
+      "amount": 15000
+    },
+    {
+      "id": 2,
+      "user_id": 2,
+      "type": "trimestriel",
+      "start_date": "2026-09-01",
+      "end_date": "2026-12-01",
+      "status": "active",
+      "amount": 40000
+    }
+  ],
+  "courses": [
+    {
+      "id": 1,
+      "title": "Formation Informatique",
+      "category": "tech",
+      "duration": "3 mois",
+      "price": 25000,
+      "instructor": "Prof. Kabongo"
+    },
+    {
+      "id": 2,
+      "title": "Maîtrise Excel",
+      "category": "bureautique",
+      "duration": "1 mois",
+      "price": 15000,
+      "instructor": "Prof. Mukuna"
+    }
+  ],
+  "events": [
+    {
+      "id": 1,
+      "name": "Tournoi Football Inter-Entreprises",
+      "date": "2026-10-15",
+      "location": "Stade Alphonse Massemba",
+      "participants": 12,
+      "status": "upcoming"
+    },
+    {
+      "id": 2,
+      "name": "Marathon Brazzaville",
+      "date": "2026-11-01",
+      "location": "Centre-ville",
+      "participants": 200,
+      "status": "upcoming"
+    }
+  ],
+  "print_orders": [
+    {
+      "id": 1,
+      "customer": "Entreprise ABC",
+      "type": "flocage",
+      "quantity": 50,
+      "status": "completed",
+      "total": 75000
+    },
+    {
+      "id": 2,
+      "customer": "École XYZ",
+      "type": "imprimerie",
+      "quantity": 200,
+      "status": "pending",
+      "total": 40000
+    }
+  ]
+}
